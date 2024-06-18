@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  rocket-launch:
+    build: .
+    container_name: rocket_launch_container
+    command: poetry run python src/rocket_launch.py
